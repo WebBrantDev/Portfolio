@@ -1,0 +1,43 @@
+.banner {
+	margin: auto;
+	background-color: #0D1B1E;
+	color: #CFEBDF;
+	padding: 30px;
+	font-family: "Permanent Marker", "Times New Roman", serif;
+	text-align: center;
+}
+
+.banner h1 {
+	font-size: 70px;
+}
+
+.banner h3 {
+	font-size: 30px;
+}
+
+body {
+	background-color: #CFEBDF;
+	font-family: Roboto, Arial, sans-serif;
+	color: #0D1B1E;
+	text-align: center;
+}
+
+main div article {
+	width: 40%;
+	margin: auto;
+}
+
+main div article ul {
+	margin: auto;
+	width: 40%;
+	text-align: left;
+}
+
+hr {
+	width: 40%;
+	height: 2px;
+	border: none;
+	background-color: #0D1B1E;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
