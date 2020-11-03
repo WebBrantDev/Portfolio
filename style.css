@@ -3,16 +3,17 @@
 	background-color: #0D1B1E;
 	color: #CFEBDF;
 	padding: 30px;
-	font-family: "Permanent Marker", "Times New Roman", serif;
 	text-align: center;
 }
 
 .banner h1 {
 	font-size: 70px;
+	font-family: "Permanent Marker", "Times New Roman", serif;
 }
 
 .banner h3 {
 	font-size: 30px;
+	font-family: "Permanent Marker", "Times New Roman", serif;
 }
 
 body {
@@ -33,6 +34,12 @@ main div article ul {
 	text-align: left;
 }
 
+main div article ol {
+	margin: auto;
+	width: 40%;
+	text-align: left;
+}
+
 hr {
 	width: 40%;
 	height: 2px;
@@ -41,3 +48,13 @@ hr {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+img {
+	height: 350px;
+	width: 425px;
+	border: 2px solid #0D1B1E;
+	border-radius: 20%;
+	margin: 5px;
+}
+
+a:link {color: #1098F7;}
