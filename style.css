@@ -35,14 +35,14 @@ main div article {
 }
 
 main div article ul {
-	margin: auto;
 	width: 40%;
+	margin: auto;
 	text-align: left;
 }
 
 main div article ol {
-	margin: auto;
 	width: 40%;
+	margin: auto;
 	text-align: left;
 }
 
@@ -60,13 +60,23 @@ hr {
 /*			Sets image sizing and borders 				*/
 
 img {
-	height: 350px;
-	width: 425px;
+	width: 40%;
 	border: 2px solid #0D1B1E;
 	border-radius: 20%;
-	margin: 5px;
+	margin-top: 5px;
 }
 
 /*			Pseudo class for the link to change the initial color 				*/
 
-a:link {color: #1098F7;}
+a:link {
+	color: #1098F7;
+}
+
+a:visited {
+	color: #0D1B1E;
+}
+
+a:hover {
+	color: #DB3069;
+	text-decoration: none;
+}
