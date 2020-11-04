@@ -1,3 +1,5 @@
+/*		Styles to set the banner fonts, colors, and sizes 			*/
+
 .banner {
 	margin: auto;
 	background-color: #0D1B1E;
@@ -16,12 +18,16 @@
 	font-family: "Permanent Marker", "Times New Roman", serif;
 }
 
+/*			Controls the styles for the body 				*/
+
 body {
 	background-color: #CFEBDF;
 	font-family: Roboto, Arial, sans-serif;
 	color: #0D1B1E;
 	text-align: center;
 }
+
+/* 			Specifically sets the sizing and alignment of the articles in main 			*/
 
 main div article {
 	width: 40%;
@@ -40,6 +46,8 @@ main div article ol {
 	text-align: left;
 }
 
+/*			Controls the hr styles and coloring 				*/
+
 hr {
 	width: 40%;
 	height: 2px;
@@ -49,6 +57,8 @@ hr {
 	margin-bottom: 50px;
 }
 
+/*			Sets image sizing and borders 				*/
+
 img {
 	height: 350px;
 	width: 425px;
@@ -56,5 +66,7 @@ img {
 	border-radius: 20%;
 	margin: 5px;
 }
+
+/*			Pseudo class for the link to change the initial color 				*/
 
 a:link {color: #1098F7;}
